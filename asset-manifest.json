@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.27be6ab7.css",
+    "main.js": "/portfolio/static/js/main.a5814a52.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/restaurant.png": "/portfolio/static/media/restaurant.4fd1101b4430701423cd.png",
+    "static/media/devise.png": "/portfolio/static/media/devise.926471bcf861a7eee0fa.png",
+    "static/media/dad.png": "/portfolio/static/media/dad.dee12d66bdfc51a36f3b.png",
+    "static/media/ethan_wedding.jpg": "/portfolio/static/media/ethan_wedding.116bc5d66e9127d12b0e.jpg",
+    "static/media/eec.png": "/portfolio/static/media/eec.ee716eda2f5cbf82e2f7.png",
+    "static/media/social.png": "/portfolio/static/media/social.a40417d7b835cd24f24b.png",
+    "static/media/note.png": "/portfolio/static/media/note.bde3d29697a241a7bfc5.png",
+    "static/media/team.png": "/portfolio/static/media/team.181c28f798776b05aa13.png",
+    "index.html": "/portfolio/index.html",
+    "main.27be6ab7.css.map": "/portfolio/static/css/main.27be6ab7.css.map",
+    "main.a5814a52.js.map": "/portfolio/static/js/main.a5814a52.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27be6ab7.css",
+    "static/js/main.a5814a52.js"
+  ]
+}
