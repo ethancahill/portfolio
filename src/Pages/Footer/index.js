@@ -25,7 +25,7 @@ function sendWebsite(url){
                         color: '#407e81',
                         mt: '5vh'
                     }}
-                    onClick={() => sendWebsite('www.github.com/ethancahill')}>Github</Button>
+                    onClick={() => sendWebsite('https://www.github.com/ethancahill')}>Github</Button>
                     <Button size='large' sx={{
                         width: '100%',
                         height: '7vh',
