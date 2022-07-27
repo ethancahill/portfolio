@@ -23,7 +23,7 @@ export default function Resume() {
       <Container
         sx={{
           maxWidth: "100%",
-          mt: "50px",
+          mt: "2vw",
           display: "flex",
           flexDirection: "column",
           alignItems: 'center'
@@ -49,8 +49,8 @@ export default function Resume() {
             }}>
               <Typography
                 sx={{
-                  fontSize: "30px",
-                  borderTop: 'ridge 5px rgba(64,126,129, 1)',
+                  fontSize: "2vw",
+                  borderTop: 'ridge 0.5vw rgba(64,126,129, 1)',
                   alignText: 'center',
                 }}
               >
@@ -58,8 +58,8 @@ export default function Resume() {
               </Typography>
               <Typography
                 sx={{
-                  fontSize: "40px",
-                  borderTop: 'ridge 5px rgba(64,126,129, 1)',
+                  fontSize: "2.5vw",
+                  borderTop: 'ridge 0.5vw rgba(64,126,129, 1)',
                   alignText: 'center'
                 }}
               >
@@ -67,8 +67,8 @@ export default function Resume() {
               </Typography>
               <Typography
                 sx={{
-                  fontSize: "20px",
-                  borderTop: 'ridge 5px rgba(64,126,129, 1)',
+                  fontSize: "1.5vw",
+                  borderTop: 'ridge 0.5vw rgba(64,126,129, 1)',
                   alignText: 'center'
                 }}
               >
@@ -77,14 +77,16 @@ export default function Resume() {
               </Typography>
               </Box>
         <Button
-          size="large"
+          size="medium"
           variant="contained"
           onClick={() => openSite()}
           sx={{
             background: "rgba(64,126,129, 1)",
-            mt: "25px",
+            mt: "1vw",
             width: '100%',
             borderRadius: "5%",
+            height: '3vw',
+            fontSize: '2vw',
             "&:hover": {
               background: "rgba(64,126,129, 0.5)",
             },

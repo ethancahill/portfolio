@@ -153,7 +153,7 @@ boxShadow: '4px 4px rgba(64,126,129, 0.75)'
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" sx={{
-              fontFamily: 'Grubbo'
+              fontFamily: 'Grubbo',
           }}>
             {project.title}
           </Typography>

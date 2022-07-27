@@ -37,7 +37,7 @@ export default function AboutMe() {
             component='img'
             src={photo} 
             sx={{
-            height: '60vh',
+            height: '40vw',
             width: 'auto',
             borderRadius: '15%'
         }}>
@@ -53,7 +53,7 @@ export default function AboutMe() {
                  borderRadius: '10%',
              }}>
                  <Typography sx={{
-                     fontSize: '20px'
+                     fontSize: '1.5vw'
                  }}>
                      Hi! I'm so glad you visited my page. I am a former Teacher turned Software Engineer. 
                      I learned a lot during my days as an educator. I developed a strong growth mindset, a 
@@ -62,13 +62,13 @@ export default function AboutMe() {
                      I applied my growth mind set, passion, and patience towards this new endeavour and I have been growing as a developer every day since. 
                  </Typography>
                  <Typography sx={{
-                     fontSize: '20px'
+                     fontSize: '1.5vw'
                  }}>
                      My wife and I currently live in the Orlando area with our greyhound Flynn. We love going to Disney and cheering on UCF at every home game. 
                      We are season ticket holders!
                  </Typography>
                  <Typography sx={{
-                     fontSize: '20px'
+                     fontSize: '1.5vw'
                  }}>
                      Please enjoy the site, and don't hesitate to reach out to me via my contact page.
                  </Typography>
