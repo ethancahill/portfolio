@@ -89,7 +89,7 @@ function openSite(url) {
         <>
          <Typography className="neon" sx={{
             textAlign: 'center',
-            fontSize: '70px',
+            fontSize: '5vw',
         }}>
             My Portfolio
         </Typography>

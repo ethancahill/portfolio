@@ -40,7 +40,8 @@ export default function Contact() {
             padding: '25px',
             background: 'grey',
             borderRadius: '5%',
-            minHeight: '40vh'
+            minHeight: '40vh',
+            maxWidth: '80vw'
         }}>
              <Typography className='poptext' sx={{
                 fontSize: '80px',

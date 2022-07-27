@@ -8,7 +8,7 @@ export default function AboutMe() {
         <>
         <Typography className="neon" sx={{
             textAlign: 'center',
-            fontSize: '90px',
+            fontSize: '7vw',
         }}>
             About Me
         </Typography>
@@ -46,7 +46,8 @@ export default function AboutMe() {
             </Grid>
             <Grid item xs='auto'>
              <Card sx={{
-                 width:'45vw',
+                 minWidth:'45vw',
+                 maxWidth: '50vw',
                  padding: '18px',
                  background: 'linear-gradient(grey, lightgrey)',
                  borderRadius: '10%',

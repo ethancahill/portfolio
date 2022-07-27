@@ -14,7 +14,7 @@ export default function Resume() {
         className="neon"
         sx={{
           textAlign: "center",
-          fontSize: "50px",
+          fontSize: "4vw",
           padding: "10px",
         }}
       >
