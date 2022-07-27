@@ -8,7 +8,7 @@ import Footer from './Pages/Footer'
 
 function App() {
 
-  const [page, setPage] = useState('portfolio')
+  const [page, setPage] = useState('about')
 
 
 
@@ -18,7 +18,7 @@ function App() {
       case 'about': return <AboutMe />;
       case 'contact': return <Contact />
       case 'resume': return <Resume />;
-      default: return <Portfolio />;
+      default: return <AboutMe />;
     }
   }
 

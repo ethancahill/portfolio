@@ -32,6 +32,7 @@ export default function NavBar(props){
           },
           '&:active': {
               border: 'solid 0.25vw #56a6aa',
+              fontSize: '1.20vw'
 
           },
           '&:focus': {
@@ -43,7 +44,7 @@ export default function NavBar(props){
         <>
         <Box sx={{
             display: 'fixed',
-            height: '5vw',
+            height: '5.5vw',
             width: '100vw',
             background: 'linear-gradient(#0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%)'
         }}>
@@ -67,12 +68,12 @@ export default function NavBar(props){
                     }}
                     alt='Cahill Portfolio Logo'
                     src={Logo}
-                    onClick={() => setPage('portfolio')}/>
+                    onClick={() => setPage('about')}/>
                 </Grid>
                 <Grid item xs='auto' sx={{
                     ml: '6vw'
                 }}>
-                <StyledButton  variant='outlined' onClick={() => setPage('portfolio')}>
+                <StyledButton variant='outlined' onClick={() => setPage('portfolio')}>
                     Portfolio
                 </StyledButton>
                 </Grid>
