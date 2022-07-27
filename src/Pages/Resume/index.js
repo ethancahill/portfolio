@@ -79,7 +79,7 @@ export default function Resume() {
         <Button
           size="medium"
           variant="contained"
-          onClick={() => openSite()}
+          onClick={() => openSite(url)}
           sx={{
             background: "rgba(64,126,129, 1)",
             mt: "1vw",

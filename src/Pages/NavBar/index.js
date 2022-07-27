@@ -20,9 +20,9 @@ export default function NavBar(props){
 
       const StyledButton = styled(Button)({
           border: 'solid 0.25vw #407e81',
-          height: '3vw',
+          height: '8vh',
                     width: '10vw',
-                    fontSize: '1.25vw',
+                    fontSize: '10px',
                     fontFamily: 'Gruppo',
                     fontStyle: 'bold',
                     color: 'white',
@@ -44,7 +44,7 @@ export default function NavBar(props){
         <>
         <Box sx={{
             display: 'fixed',
-            height: '5.5vw',
+            height: '11vh',
             width: '100vw',
             background: 'linear-gradient(#0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%)'
         }}>
@@ -60,7 +60,7 @@ export default function NavBar(props){
                     <Box 
                     component='img'
                     sx={{
-                        height:'5vw',
+                        height:'11vh',
                         '&:hover': {
                             opacity: '0.75',
                             cursor: 'pointer',
