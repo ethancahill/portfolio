@@ -2,6 +2,7 @@
     height: 11vh;
     width: 100vw;
     position: absolute;
+    display: block;
 }
 
 .navbar-grid {
@@ -80,41 +81,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .navbar {
-        height: 100%;
-        width: 11vw;
-        display: block;
-    }
-    .navbar-grid {
-        height: 100vh;
-        width: 11vw;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: flex-start;
-        -ms-flex-pack: flex-start;
-        -webkit-justify-content: flex-start;
-        justify-content: flex-start;
-    }
-    .navbar div {
-        width: 10vw;
-        margin: 0;
-    }
-    .navbar img {
-        width: 11vw;
-    }
     .navbar button {
-        height: 10vh;
-        width: 11vw;
-        font-size: 1.25vw;
-    }
-    .navbar-author {
         font-size: 1.5vw;
-        text-align: center;
-        margin-top: 20vh;
     }
 }

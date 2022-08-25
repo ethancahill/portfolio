@@ -9,7 +9,7 @@ export default function AboutMe() {
         <Typography className="neon" sx={{
             textAlign: 'center',
             fontSize: '5.5vw',
-            pt: '5vh'
+            pt: '10vh'
         }}>
             About Me
         </Typography>
