@@ -104,6 +104,7 @@ export default function NavBar(props) {
             </StyledButton>
           </Grid>
           <Grid
+          className="navbar-author"
             item
             xs="auto"
             

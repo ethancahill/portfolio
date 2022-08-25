@@ -35,7 +35,11 @@
     width: 14vw;
 }
 .navbar-author {
-    font-size: 18px;
+    font-size: 1.5vw;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .navbar div {
     margin-right: 5vw;
@@ -77,8 +81,9 @@
 
 @media only screen and (max-width: 600px) {
     .navbar {
-        height: 100vh;
+        height: 100%;
         width: 11vw;
+        display: block;
     }
     .navbar-grid {
         height: 100vh;
