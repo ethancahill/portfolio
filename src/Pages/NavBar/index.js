@@ -4,6 +4,7 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 import { styled } from "@mui/material/styles";
 import WebFont from "webfontloader";
 import Logo from "./img/eec.png";
+import "./css/style.css"
 
 export default function NavBar(props) {
   const { setPage, page } = props;
@@ -18,52 +19,41 @@ export default function NavBar(props) {
   }, [page]);
 
   const StyledButton = styled(Button)({
-    border: "solid 0.25vw #407e81",
-    height: "8vh",
-    width: "10vw",
-    fontSize: "10px",
     fontFamily: "Gruppo",
     fontStyle: "bold",
     color: "white",
     padding: "0.25vw",
+    minWidth: "1vw",
+    border: 0,
     "&:hover": {
       background: "rgba(64,126,129, 0.25)",
-      border: "solid 0.25vw #56a6aa",
+      border: 0,
     },
     "&:active": {
-      border: "solid 0.25vw #56a6aa",
       fontSize: "1.20vw",
+      border: 0,
     },
     "&:focus": {
-      border: "solid 0.40vw #56a6aa",
+      border: 0,
     },
   });
 
   return (
     <>
-      <Box
+      <Box className = 'navbar'
         sx={{
-          display: "fixed",
-          height: "11vh",
-          width: "100vw",
           background:
             "linear-gradient(#0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%)",
         }}
       >
-        <Grid
+        <Grid className='navbar-grid'
           container
-          spacing={0}
-          alignItems="center"
-          justifyContent="flex-start"
-          width="100vw"
-          height="11vh"
+          spacing={0}  
         >
           <Grid item xs="auto">
             <Box
               component="img"
               sx={{
-                height: "11vh",
-                width: "14vw",
                 "&:hover": {
                   opacity: "0.75",
                   cursor: "pointer",
@@ -77,9 +67,7 @@ export default function NavBar(props) {
           <Grid
             item
             xs="auto"
-            sx={{
-              ml: "2vw",
-            }}
+           
           >
             <StyledButton
               variant="outlined"
@@ -91,9 +79,7 @@ export default function NavBar(props) {
           <Grid
             item
             xs="auto"
-            sx={{
-              ml: "1vw",
-            }}
+        
           >
             <StyledButton variant="outlined" onClick={() => setPage("about")}>
               About Me
@@ -102,9 +88,7 @@ export default function NavBar(props) {
           <Grid
             item
             xs="auto"
-            sx={{
-              ml: "1vw",
-            }}
+            
           >
             <StyledButton variant="outlined" onClick={() => setPage("resume")}>
               Resume
@@ -113,9 +97,7 @@ export default function NavBar(props) {
           <Grid
             item
             xs="auto"
-            sx={{
-              ml: "1vw",
-            }}
+           
           >
             <StyledButton variant="outlined" onClick={() => setPage("contact")}>
               Contact
@@ -124,19 +106,9 @@ export default function NavBar(props) {
           <Grid
             item
             xs="auto"
-            sx={{
-              ml: "15vw",
-            }}
+            
           >
-            <Typography
-              sx={{
-                fontSize: "1.5vw",
-                color: "white",
-                fontFamily: "Gruppo",
-              }}
-            >
               By: Ethan Edward Cahill
-            </Typography>
           </Grid>
         </Grid>
       </Box>
